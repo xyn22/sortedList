@@ -1,0 +1,24 @@
+{
+  "name": "sortedlist",
+  "private": false,
+  "version": "1.0.16",
+  "author": "AbdelRahman Hamed",
+  "description": "A sorted list implementation in JavaScript",
+  "main": "build/index.js",
+  "type": "module",
+  "types": "build/index.d.ts",
+  "files": [
+    "build",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "npx tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.5"
+  }
+}

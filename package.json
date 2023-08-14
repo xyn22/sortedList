@@ -1,12 +1,17 @@
 {
-  "name": "sortedlist",
+  "name": "numbersorted",
   "private": false,
-  "version": "1.0.16",
+  "version": "1.0.19",
   "author": "AbdelRahman Hamed",
-  "description": "A sorted list implementation in JavaScript",
+  "description": "A sorted list implementation",
   "main": "build/index.js",
   "type": "module",
   "types": "build/index.d.ts",
+  "homepage": "https://github.com/xyn22/sortedList",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xyn22/sortedList.git"
+  },
   "files": [
     "build",
     "README.md"
